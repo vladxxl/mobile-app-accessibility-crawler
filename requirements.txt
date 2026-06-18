@@ -1,0 +1,4 @@
+# No third-party Python packages are required.
+#
+# The pipeline uses only the Python standard library.
+# Runtime dependencies are Android Studio / Android SDK tools documented in DEPENDENCIES.md.

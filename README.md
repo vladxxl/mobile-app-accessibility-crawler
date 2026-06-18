@@ -125,6 +125,16 @@ Check available AVD names with:
 emulator -list-avds
 ```
 
+Python package requirements are recorded in `requirements.txt`. Android and system-level dependencies are recorded in `DEPENDENCIES.md`.
+
+Install Python requirements:
+
+```bash
+python3 -m pip install -r requirements.txt
+```
+
+This currently installs no third-party packages; the file exists so collaborators can verify that the Python side is standard-library only.
+
 Recommended shell setup:
 
 ```bash
