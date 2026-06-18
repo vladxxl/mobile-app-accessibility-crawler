@@ -1,0 +1,39 @@
+# macOS and editor files
+.DS_Store
+._*
+.idea/
+.vscode/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+.python-version
+.venv/
+venv/
+env/
+
+# Local env and credentials
+.env
+.env.*
+!.env.example
+
+# Android/local diagnostics
+*.apk
+*.aab
+bugreport*.zip
+*.hprof
+
+# Duplicate local copy; apps_vlad.txt is the canonical app list.
+apps_vlad.rtf
+
+# Generated pipeline outputs
+screenshots_vlad_apps/*
+!screenshots_vlad_apps/.gitkeep
+nai_candidate_frames/*
+!nai_candidate_frames/.gitkeep
+
+# Runtime logs/state
+*.log
+*.pid
+*.err
